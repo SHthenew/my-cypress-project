@@ -1,0 +1,30 @@
+{
+  "name": "my-cypress-project",
+  "version": "1.0.0",
+  "description": "My first cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \\\"**/*.feature\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHthenew/my-cypress-project.git"
+  },
+  "author": "Jing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHthenew/my-cypress-project/issues"
+  },
+  "homepage": "https://github.com/SHthenew/my-cypress-project#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
