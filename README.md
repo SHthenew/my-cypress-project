@@ -5,7 +5,8 @@ cypress官方使用文档可参考[___官方使用文档___](https://docs.cypres
 #### 1. 安装相关依赖
 `npm install`
 #### 2. 运行
-`./node_modules/.bin/cypress open` ___或___ `npx cypress open/run`
+___Mac系统___ `./node_modules/.bin/cypress open` ___或___ `npx cypress open/run`
+___Windows系统___ `<完整路径>/node_modules/.bin/cypress open`
 
 
 ## 环境配置
